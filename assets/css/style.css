@@ -1,0 +1,259 @@
+:root {
+  --main-color: #272d38;
+  --white-space: 188px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.white-space {
+  padding-left: var(--white-space) !important;
+  padding-right: var(--white-space) !important;
+}
+.margin-sections {
+  margin-bottom: 136px !important;
+}
+.main-fs {
+  font-size: 48px;
+}
+.main-color {
+  color: var(--main-color) !important;
+}
+header {
+  height: 100vh;
+}
+header .first-blur {
+  width: 679px;
+  height: 679px;
+  background-color: #0573ff3d;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(306px);
+  top: -324px;
+  left: -221px;
+}
+nav {
+  padding-top: 46px !important;
+  padding-bottom: 97px !important;
+}
+.bg-nav {
+  background-color: white !important;
+}
+nav .navbar-nav a {
+  padding-left: 44px !important;
+  padding-right: 0 !important;
+}
+.hero {
+  color: #272d38;
+}
+.hero h1 {
+  max-width: 540px;
+  font-size: 64px;
+}
+.hero p {
+  max-width: 525px;
+  margin-bottom: 39px !important;
+  font-size: 18px;
+}
+.hero .btn {
+  background-color: #8eadd5 !important;
+  width: 167px !important;
+}
+.companies > p {
+  color: #667085;
+}
+.companies .logos {
+  background-color: #f6f6f6;
+  max-width: 915px !important;
+}
+.branding .design h1,
+.custome .development h1 {
+  max-width: 436px;
+}
+.branding .design p,
+.custome .development p {
+  max-width: 375px;
+}
+
+.testimonial h1 {
+  max-width: 505px;
+  margin-bottom: 38.65px;
+}
+.testimonial h5 {
+  font-size: 18px;
+  line-height: 27.5px;
+  text-transform: capitalize;
+}
+.testimonial .card-body p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+.testimonial .card {
+  max-width: 345px;
+  background-color: #dedcdb80;
+}
+.testimonial img {
+  width: 129px;
+  height: 130px;
+}
+.carousel-indicators .secondary-button {
+  width: 16px !important;
+  height: 16px !important;
+  border: 3px solid #8eadd5 !important;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  width: 24px !important;
+  height: 24px !important;
+  background-color: #8eadd5;
+  border-radius: 50%;
+}
+.contact .contact-inner {
+  background-color: #f6f6f6;
+  padding-left: 82px;
+  padding-right: 82px;
+}
+.contact .information {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact .contact-inner h1 {
+  max-width: 361px;
+}
+.contact .contact-inner p {
+  max-width: 350px;
+  padding-bottom: 32px;
+}
+.contact .contact-inner .btn {
+  background-color: #8eadd5 !important;
+  width: 167px !important;
+}
+footer {
+  background-color: #f6f6f6;
+}
+footer .information {
+  padding: 105px 183px 0 183px !important;
+}
+footer .info > p {
+  max-width: 190px !important;
+}
+footer .info h3 {
+  font-size: 18px;
+  padding-bottom: 32px;
+}
+footer .tail {
+  padding-top: 110px !important;
+  padding-bottom: 18px !important;
+}
+@media screen and (max-width: 1200px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .contact .contact-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contact .information {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .contact .contact-inner img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .white-space {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .margin-sections {
+    margin-bottom: 120px !important;
+  }
+  nav {
+    padding-bottom: 60px !important;
+  }
+  nav .navbar-brand {
+    font-size: 14px !important;
+  }
+  .hero .information {
+    max-width: 324px;
+    margin: 0 auto !important;
+  }
+  .hero h1 {
+    font-size: 40px !important;
+  }
+  .hero p {
+    margin-bottom: 24px !important;
+  }
+  .hero .image img {
+    width: 358px !important;
+  }
+  .companies {
+    margin-bottom: 88px !important;
+  }
+  .companies .logos i,
+  .companies .logos p {
+    font-size: 22px !important;
+  }
+  .companies .logos i {
+    padding-right: 8px !important;
+  }
+  .branding .design h1,
+  .custome .development h1 {
+    text-align: center;
+  }
+  .branding .design p,
+  .custome .development p {
+    padding-top: 24px !important;
+    padding-bottom: 32px !important;
+  }
+  .branding img,
+  .custome img {
+    width: 375px;
+    height: 384px;
+  }
+  .branding .design i,
+  .custome .development i {
+    transform: rotate(90deg);
+  }
+  footer .information {
+    padding: 105px 119px 0 119px !important;
+  }
+  footer .info h3 {
+    padding-bottom: 26px !important;
+  }
+  footer .information .info:not(:last-child) {
+    padding-bottom: 72px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  nav {
+    padding-bottom: 40px !important;
+  }
+  .hero h1 {
+    font-size: 30px !important;
+  }
+  .companies .logos i,
+  .companies .logos p {
+    font-size: 12px !important;
+  }
+  .companies .logos i {
+    padding-right: 2px !important;
+  }
+  .branding img,
+  .custome img {
+    width: 250px;
+    height: 250px;
+  }
+  .contact .contact-inner h1 {
+    font-size: 32px !important;
+  }
+}
