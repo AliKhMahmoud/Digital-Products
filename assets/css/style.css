@@ -112,7 +112,7 @@ nav .navbar-nav a {
 .carousel-indicators .active {
   width: 24px !important;
   height: 24px !important;
-  background-color: #8eadd5;
+  border: 3px solid #8eadd5 !important;
   border-radius: 50%;
 }
 .contact .contact-inner {
@@ -223,6 +223,13 @@ footer .tail {
   .branding .design i,
   .custome .development i {
     transform: rotate(90deg);
+  }
+  .testimonial h1 {
+    margin: 16px 0;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
   }
   footer .information {
     padding: 105px 119px 0 119px !important;
