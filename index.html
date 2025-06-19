@@ -154,15 +154,17 @@
         alt="business man"
       />
     </section>
-
-    <section id="testimonial" class="testimonial white-space margin-sections">
+    <section class="testimonial white-space" id="testimonials">
       <div class="text-center">
         <p class="mx-auto">TESTIMONIALS</p>
-        <h1 class="mx-auto fw-bold">Read What Other have to Say</h1>
+        <h1 class="mx-auto">Read What Other have to Say</h1>
       </div>
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-inner pb-4 d-flex justify-content-between">
-          <div class="carousel-item d-inline">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide text-center px-0"
+      >
+        <div class="carousel-inner d-flex justify-content-between">
+          <div class="carousel-item d-none d-lg-inline">
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-100">
@@ -204,7 +206,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item d-inline">
+          <div class="carousel-item d-none d-lg-inline">
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-100">
@@ -227,8 +229,15 @@
           </div>
         </div>
         <div
-          class="carousel-indicators position-relative d-flex align-items-center"
+          class="carousel-indicators position-relative d-flex align-items-center buttons"
         >
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            class="secondary-button d-inline d-lg-none"
+            aria-label="Slide 4"
+          ></button>
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
@@ -250,6 +259,13 @@
             data-bs-slide-to="2"
             class="secondary-button"
             aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            class="secondary-button d-inline d-lg-none"
+            aria-label="Slide 5"
           ></button>
         </div>
       </div>
